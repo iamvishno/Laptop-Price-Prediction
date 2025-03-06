@@ -1,0 +1,11 @@
+[ 2025-03-06 09:46:01,535 ] 17 root - INFO - Logging Started
+[ 2025-03-06 09:46:04,050 ] 22 root - INFO - Enter into the data ingestion
+[ 2025-03-06 09:46:04,085 ] 33 root - INFO - The dataset as dataframe
+[ 2025-03-06 09:46:04,085 ] 35 root - INFO - Train Test Split
+[ 2025-03-06 09:46:04,108 ] 41 root - INFO - Data Ingestion is completed
+[ 2025-03-06 09:46:04,109 ] 42 root - INFO - Numerical Pipeline Created ['Inches', 'Ram(GB)', 'SSD', 'HDD', 'TouchScreen', 'Ips_display', 'PPI']
+[ 2025-03-06 09:46:04,109 ] 45 root - INFO - Categorical Pipeline Created ['Company', 'TypeName', 'Cpu(processor)', 'Gpu(I,N,A)Brand', 'OS']
+[ 2025-03-06 09:46:04,109 ] 29 root - INFO - Data Transformation is started
+[ 2025-03-06 09:46:04,119 ] 61 root - INFO - Read train and test data completed
+[ 2025-03-06 09:46:04,122 ] 72 root - INFO - Performing the preprocessing on the train and test data
+[ 2025-03-06 09:46:04,161 ] 82 root - INFO - Saved preprocessor as pickle file preprocessor.pkl
