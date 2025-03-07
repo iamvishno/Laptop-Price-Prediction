@@ -79,7 +79,7 @@ class DataTransformation:
 
             with open(self.preprocessor_path,'wb') as f:
                 pickle.dump(self.preprocessor,f)
-            logging.info('Saved preprocessor as pickle file preprocessor.pkl')
+            logging.info(f'Saved preprocessor as pickle file preprocessor.pkl')
 
             return train_array,test_array,self.preprocessor_path
 

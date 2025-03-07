@@ -7,7 +7,9 @@ import os
 from src.logger import logging
 from src.exception import CustomException
 from sklearn.model_selection import train_test_split
+
 from src.components.data_transformation import DataTransformation
+from src.components.model_trainer import ModelTrainer
 
 class DataIngestion:
     def __init__(self):
@@ -43,8 +45,6 @@ class DataIngestion:
             return self.train_data_path,self.test_data_path
 
 
-
-
         except Exception as e:
 
             raise CustomException(e,sys)
@@ -52,4 +52,7 @@ class DataIngestion:
 if __name__ == "__main__":
     obj = DataIngestion()
     train,test = obj.initiate_data_ingestion()
-    train_array,test_array,preprocessor_path= DataTransformation().initiate_data_transformation(train,test)
+    data_transformation = DataTransformation()
+    train_array,test_array,preprocessor_path= data_transformation.initiate_data_transformation(train,test)
+    Model_Trainer=ModelTrainer()
+    Model_Trainer.initiate_model_trainer(train_array,test_array)

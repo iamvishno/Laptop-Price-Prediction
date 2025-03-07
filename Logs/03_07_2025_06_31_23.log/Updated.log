@@ -1,0 +1,14 @@
+[ 2025-03-07 06:31:23,584 ] 17 root - INFO - Logging Started
+[ 2025-03-07 06:31:26,252 ] 24 root - INFO - Enter into the data ingestion
+[ 2025-03-07 06:31:26,391 ] 35 root - INFO - The dataset as dataframe
+[ 2025-03-07 06:31:26,391 ] 37 root - INFO - Train Test Split
+[ 2025-03-07 06:31:26,408 ] 43 root - INFO - Data Ingestion is completed
+[ 2025-03-07 06:31:26,408 ] 42 root - INFO - Numerical Pipeline Created ['Inches', 'Ram(GB)', 'SSD', 'HDD', 'TouchScreen', 'Ips_display', 'PPI']
+[ 2025-03-07 06:31:26,408 ] 45 root - INFO - Categorical Pipeline Created ['Company', 'TypeName', 'Cpu(processor)', 'Gpu(I,N,A)Brand', 'OS']
+[ 2025-03-07 06:31:26,409 ] 29 root - INFO - Data Transformation is started
+[ 2025-03-07 06:31:26,514 ] 61 root - INFO - Read train and test data completed
+[ 2025-03-07 06:31:26,517 ] 72 root - INFO - Performing the preprocessing on the train and test data
+[ 2025-03-07 06:31:26,725 ] 82 root - INFO - Saved preprocessor as pickle file preprocessor.pkl
+[ 2025-03-07 06:31:26,726 ] 27 root - INFO - Train Test split
+[ 2025-03-07 06:31:27,967 ] 54 root - INFO - Best Model Found by doing training and testing the data
+[ 2025-03-07 06:31:28,203 ] 59 root - INFO - Model saved as pickle file Model.pkl RandomForestRegressor()

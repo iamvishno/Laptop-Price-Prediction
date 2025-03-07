@@ -1,0 +1,6 @@
+[ 2025-03-07 06:30:01,630 ] 17 root - INFO - Logging Started
+[ 2025-03-07 06:30:04,464 ] 24 root - INFO - Enter into the data ingestion
+[ 2025-03-07 06:30:04,494 ] 35 root - INFO - The dataset as dataframe
+[ 2025-03-07 06:30:04,494 ] 37 root - INFO - Train Test Split
+[ 2025-03-07 06:30:04,510 ] 43 root - INFO - Data Ingestion is completed
+[ 2025-03-07 06:30:04,510 ] 24 root - INFO - Enter into the data ingestion

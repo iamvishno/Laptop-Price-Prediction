@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: Laptop-Price-Prediction-Project
+Version: 0.0.2
+Author: Vishnu
+Author-email: vishnuvardhankalva8@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: plotly
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
