@@ -1,7 +1,10 @@
-import pickle
+import pandas as pd
+df = pd.read_csv('train.csv')
 
-# Open the pickle file in read mode ('rb' = read binary)
-with open("model.pkl", "rb") as file:
-    data = pickle.load(file)
+cat = df.select_dtypes(include='object').columns
+num = df.select_dtypes(exclude='object').columns
+d = {}
+for colum in cat:
+    d[colum] = df[colum].unique()
+print(df.columns)
 
-print(data)  # This will print the contents of the pickle file
