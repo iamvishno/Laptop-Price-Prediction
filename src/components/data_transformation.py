@@ -89,7 +89,3 @@ class DataTransformation:
         except Exception as e:
             raise CustomException(e,sys)
 
-'''obj1 = DataIngestion()
-train,test = obj1.initiate_data_ingestion()
-obj = DataTransformation()
-obj.initiate_data_transformation(train,test)'''
