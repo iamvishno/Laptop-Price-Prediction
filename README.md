@@ -1,76 +1,66 @@
-# 🚀 Laptop Price Prediction
+# Laptop Price Prediction 🖥💻
 
-![ML](https://img.shields.io/badge/Machine%20Learning-%E2%9C%94-blue)  
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat&logo=python)  
-![Flask](https://img.shields.io/badge/Flask-%E2%9C%94-green?style=flat&logo=flask)  
-![NumPy](https://img.shields.io/badge/NumPy-%E2%9C%94-orange?style=flat&logo=numpy)  
-![Pandas](https://img.shields.io/badge/Pandas-%E2%9C%94-darkblue?style=flat&logo=pandas)  
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%E2%9C%94-red?style=flat&logo=matplotlib)  
-![EDA](https://img.shields.io/badge/Exploratory%20Data%20Analysis-%E2%9C%94-purple)  
+Welcome to the **Laptop Price Prediction** project! This project is designed to predict laptop prices based on various features such as brand, processor, RAM, storage, and more. The project is built using a modular and scalable approach, ensuring that it is industry-ready and easy to maintain.
 
-## 📌 Project Overview
+## 🚀 Features
 
-This **Laptop Price Prediction** project is designed to predict the price of laptops based on multiple specifications like RAM, Processor, GPU, Storage, etc. The project follows **industry-level coding practices**, ensuring scalability and modularity.
+- **Data Analysis & EDA**: Comprehensive exploratory data analysis to understand the dataset.
+- **Machine Learning Models**: Utilized various machine learning algorithms to predict laptop prices.
+- **Web Interface**: A beautiful and interactive web interface built using **Flask** and **HTML**.
+- **Scalable & Modular Code**: The code is written in a modular way, making it easy to scale and maintain.
 
-## 🌟 Features
-- 📊 **Exploratory Data Analysis (EDA)** using Pandas & Matplotlib
-- 🔢 **Machine Learning Model** trained using regression techniques
-- 📈 **Feature Engineering** for optimal performance
-- 🏗 **Scalable & Modular Codebase** for industry standards
-- 🎨 **Beautiful UI** using HTML & Flask
+## 🛠️ Technologies Used
 
-## 🛠 Technologies Used
-- **Programming Language**: Python 🐍
-- **Libraries**: NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn
-- **Framework**: Flask 🌐
-- **Deployment**: AWS (optional future scope)
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=seaborn&logoColor=white" alt="Seaborn" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</p>
 
-## ⚙️ Installation
-1. Clone the repository:
+
+## 🧩 Modules
+
+1. **Data Analysis & EDA**: 
+   - Load and clean the dataset.
+   - Perform exploratory data analysis to understand the data distribution and relationships.
+   
+2. **Model Training**:
+   - Preprocess the data (encoding, scaling, etc.).
+   - Train various machine learning models.
+   - Evaluate model performance using metrics like RMSE, MAE, and R².
+
+3. **Web Interface**:
+   - Create a simple yet beautiful web interface using Flask and HTML.
+   - Allow users to input laptop features and get a price prediction.
+
+## 🛠️ Installation
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/vishnucipher/Laptap-Price-Prediction.git
-   ```
-2. Navigate to the project directory:
-   ```bash
    cd Laptap-Price-Prediction
-   ```
-3. Create a virtual environment (optional but recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
-   ```
-4. Install dependencies:
-   ```bash
    pip install -r requirements.txt
-   ```
+   python app/app.py
 
-## 🚀 Usage
-1. Run the Flask application:
-   ```bash
-   python app.py
-   ```
-2. Open your browser and visit:
-   ```
-   http://127.0.0.1:5000/
-   ```
-3. Enter laptop specifications and get the predicted price.
+Open your browser and navigate to http://127.0.0.1:5000/ to view the web interface.
 
-## 📷 Screenshots
-| Home Page | Prediction Page |
-|-----------|----------------|
-| ![Home](https://via.placeholder.com/400x250?text=Home+Page) | ![Prediction](https://via.placeholder.com/400x250?text=Prediction+Page) |
+📊 Results
 
-## 📌 Future Enhancements
-- ✅ Deployment on AWS
-- ✅ Model Optimization using Hyperparameter Tuning
-- ✅ Adding More Laptop Brands and Features
+The model achieved an R² score of 0.87 on the test dataset, indicating a strong predictive performance. Below are some visualizations from the EDA:
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to **fork** this repo and create pull requests.
 
-## 📜 License
-This project is licensed under the **MIT License**.
+🙏 Acknowledgments
 
----
-### ⭐ If you found this project useful, give it a ⭐ on [GitHub](https://github.com/vishnucipher/Laptap-Price-Prediction)!
+- Special thanks to the open-source community for providing the libraries and tools used in this project.
+- Inspiration from various online tutorials and datasets.
+
+🌟 Star this repository if you found it useful! 🌟
+
 
