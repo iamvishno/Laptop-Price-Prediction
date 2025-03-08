@@ -51,7 +51,7 @@ Welcome to the **Laptop Price Prediction** project! This project is designed to 
    pip install -r requirements.txt
    python app/app.py
 
-Open your browser and navigate to http://127.0.0.1:5000/ to view the web interface.
+Open your browser and navigate to http://127.0.0.1:8080/ to view the web interface.
 
 📊 Results
 
