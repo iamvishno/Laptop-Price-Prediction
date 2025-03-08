@@ -11,6 +11,7 @@ Requires-Dist: plotly
 Requires-Dist: scikit-learn
 Requires-Dist: flask
 Requires-Dist: gunicorn
+Requires-Dist: send2trash
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist

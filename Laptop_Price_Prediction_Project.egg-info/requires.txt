@@ -6,3 +6,4 @@ plotly
 scikit-learn
 flask
 gunicorn
+send2trash
