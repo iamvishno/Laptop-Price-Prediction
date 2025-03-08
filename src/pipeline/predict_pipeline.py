@@ -18,8 +18,8 @@ class PredictPipeline:
     def predict(self,features):
         try:
 
-            model_path = '/Users/vishnu/Desktop/Laptop Price Prediction/artifacts/model.pkl'
-            preprocess_path = '/Users/vishnu/Desktop/Laptop Price Prediction/artifacts/preprocessor.pkl'
+            model_path = 'artifacts/model.pkl'
+            preprocess_path = 'artifacts/preprocessor.pkl'
             with open(model_path, 'rb') as file:
                 model = pickle.load(file)
             with open(preprocess_path, 'rb') as file:
