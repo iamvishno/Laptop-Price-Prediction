@@ -16,7 +16,6 @@ def evalute_models(X_train,y_train,X_test,y_test,models):
             model = list(models.values())[i]
             #params_ = params[list(models.keys())[i]]
 
-
             #gridmodel = GridSearchCV(estimator=model,param_grid=params_,cv=3)
             #gridmodel.fit(X_train,y_train)
 
