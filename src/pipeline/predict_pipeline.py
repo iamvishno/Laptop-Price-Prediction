@@ -25,8 +25,6 @@ class PredictPipeline:
             with open(preprocess_path, 'rb') as file:
                 preprocessor = pickle.load(file)
 
-            print('model_path_obj',ModelTrainer().model_path)
-            print('model_path_manual',model_path)
 
 
             data_scaled = preprocessor.transform(features)
