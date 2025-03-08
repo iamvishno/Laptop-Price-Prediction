@@ -56,18 +56,7 @@ class CustomData:
         self.Os = Os,
         self.Resolution = Resolution
 
-        print(self.Company[0],
-        self.TypeName[0],
-        self.Inches[0],
-        self.Ram[0],
-        self.Cpu[0],
-        self.Gpu[0],
-        self.SSD[0],
-        self.HDD[0],
-        self.TouchScreen[0],
-        self.Ips_display[0] ,
-        self.Os[0],
-        self.Resolution)
+
 
     def get_data_as_df(self):
         try:

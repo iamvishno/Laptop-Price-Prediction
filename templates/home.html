@@ -86,6 +86,15 @@
             background: linear-gradient(135deg, #ff758c, #ff7eb3);
             transform: scale(1.05);
         }
+
+        .prediction-result {
+            background: linear-gradient(45deg, #ff5733, #33ff57, #3357ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -130,10 +139,8 @@
                 <input type="number" name="Ram" required>
             </div>
             <div class="column">
-
-                <label >Processor:</label>
+                <label>Processor:</label>
                 <select  name="Processor" required>
-
                   <option value="Intel Core i5">Intel Core i5</option>
                   <option value="Intel Core i7">Intel Core i7</option>
                   <option value="AMD">AMD</option>
@@ -141,10 +148,7 @@
                   <option value="Other Intel">Other Intel</option>
                   <option value="Intel Celeron">Intel Celeron</option>
                 </select>
-
-
                 <label>GPU Brand:</label>
-
                 <select  name="GpuBrand" required>
                   <option value="Mac">Mac</option>
                   <option value="Other">Other</option>
@@ -188,15 +192,13 @@
             </div>
         </div>
         <button type="submit">Predict Price</button>
-        <h2 style="background: linear-gradient(45deg, #ff5733, #33ff57, #3357ff);
-           -webkit-background-clip: text;
-           -webkit-text-fill-color: transparent;
-           font-size: 24px;
-           font-weight: bold;">
-    The Prediction is = {{results}}
-</h2>
+
+        <!-- Conditional Display of Prediction Result -->
+        {% if results %}
+        <div class="prediction-result">
+            The Prediction is = {{ results }}
+        </div>
+        {% endif %}
     </form>
-
 </body>
-
 </html>
