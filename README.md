@@ -1,5 +1,7 @@
 # Laptop Price Prediction 🖥💻
 
+Deployment Link:https://laptap-price-prediction.onrender.com
+
 Welcome to the **Laptop Price Prediction** project! This project is designed to predict laptop prices based on various features such as brand, processor, RAM, storage, and more. The project is built using a modular and scalable approach, ensuring that it is industry-ready and easy to maintain.
 
 ## 🚀 Features
