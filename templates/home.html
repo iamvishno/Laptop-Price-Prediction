@@ -116,17 +116,41 @@
                     <option value="Xiaomi">Xiaomi</option>
                 </select>
                 <label>Laptop Type:</label>
-                <input type="text" name="TypeName" required>
+                <select  name="TypeName" required>
+                  <option value="Ultrabook">Ultrabook</option>
+                  <option value="Notebook">Notebook</option>
+                  <option value="Netbook">Netbook</option>
+                  <option value="Gaming">Gaming</option>
+                  <option value="2 in 1 Convertible">2 in 1 Convertible</option>
+                  <option value="Workstation">Workstation</option>
+                </select>
                 <label>Screen Size (Inches):</label>
                 <input type="number" name="Inches" step="0.1" required>
                 <label>RAM (GB):</label>
                 <input type="number" name="Ram" required>
             </div>
             <div class="column">
-                <label>Processor:</label>
-                <input type="text" name="Cpu" required>
+
+                <label >Processor:</label>
+                <select  name="Processor" required>
+
+                  <option value="Intel Core i5">Intel Core i5</option>
+                  <option value="Intel Core i7">Intel Core i7</option>
+                  <option value="AMD">AMD</option>
+                  <option value="Intel Core i3">Intel Core i3</option>
+                  <option value="Other Intel">Other Intel</option>
+                  <option value="Intel Celeron">Intel Celeron</option>
+                </select>
+
+
                 <label>GPU Brand:</label>
-                <input type="text" name="Gpu" required>
+
+                <select  name="GpuBrand" required>
+                  <option value="Mac">Mac</option>
+                  <option value="Other">Other</option>
+                  <option value="Windows">Windows</option>
+                  <option value="Linux">Linux</option>
+                </select>
                 <label>SSD (GB):</label>
                 <input type='number' name="SSD" required>
                 <label>HDD (GB):</label>
