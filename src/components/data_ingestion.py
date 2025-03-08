@@ -11,6 +11,7 @@ from sklearn.model_selection import train_test_split
 from src.components.data_transformation import DataTransformation
 from src.components.model_trainer import ModelTrainer
 from src.pipeline.predict_pipeline import PredictPipeline
+
 class DataIngestion:
     def __init__(self):
         current_dir = os.path.dirname(os.getcwd())
