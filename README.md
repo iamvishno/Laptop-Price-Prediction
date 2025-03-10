@@ -57,7 +57,7 @@ Open your browser and navigate to http://127.0.0.1:8080/ to view the web interfa
 
 📊 Results
 
-The model achieved an R² score of 0.87 on the test dataset, indicating a strong predictive performance. Below are some visualizations from the EDA:
+The model achieved an R² score of 0.87 on the test dataset, indicating a strong predictive performance.
 
 
 🙏 Acknowledgments
