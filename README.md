@@ -1,6 +1,7 @@
 # Laptop Price Prediction 🖥💻
 
-![](https://github.com/iamvishno/Laptop-Price-Prediction/blob/main/Laptop.jpeg)
+<img src="https://github.com/iamvishno/Laptop-Price-Prediction/blob/main/Laptop.jpeg" width="300" height="200">
+
 
 Deployment Link: https://laptop-price-prediction-5qkn.onrender.com/
 
